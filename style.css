@@ -1,0 +1,261 @@
+body{
+    background-color: black;
+    font-family: Arial;
+    margin: 0px;
+}
+
+.main{
+    width: 1000px;
+    margin: auto;
+    
+}
+
+.row1{
+    width: 1000px;
+    height: 186px;
+    display:flex;
+    background-image:url("images/headerbg.jpg") ;
+}
+
+.logo{
+    width: 230px;
+    height: 170px; 
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+.tagline{
+    width: 400px;
+    height: 186px;
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.cinfo{
+    width: 296px;
+    height: 132px;
+    background-image: url("images/topcontactbg.png");
+    margin: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.website{
+    font-size: 20px;
+}
+
+.email{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.phone{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.row2{
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    background-image: url("images/menubg.jpg");
+    justify-content:center;
+    gap: 15px;
+}
+
+.menuitems{
+    width: 127px;
+    height: 44px;
+    background-image: url("images/menubackground.png");
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 6px;
+    box-sizing: border-box;
+}
+
+.row2 .menuitems a{
+    text-decoration:none;
+    color: black;
+}
+
+.row3{
+    width: 1000px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 15px;
+    display: flex;
+}
+
+.row3left{
+    width: 213px;
+    margin-left: 20px;
+}
+
+.leftmenuitems{
+    width: 213px;
+    height: 40px;
+    background-image: url("images/leftmenubg.png");
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.row3right{
+    width: 750px;
+    background-color: white;
+
+}
+
+.row4{
+    width: 1000px;
+    height: 200px;
+    display: flex;
+}
+
+.row4left{
+    width: 600px;
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+li{
+    font-weight: bold;
+}
+
+.row4mid{
+    width: px;
+    margin-left: 10px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 0, 0.824);
+    color: black;
+}
+
+p{
+    color: white;
+    text-align: left;
+    
+}
+
+li{
+    text-align: left;
+    padding-left: 0px;
+}
+
+.ROWEND{
+    width: 380px;
+    margin-left: 10px;   
+}
+
+.row5{
+    width:1000px;
+    height:50px ;
+    color: black;
+    justify-content:center;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    border-color: white;
+    border-radius: 10px;
+    padding-top:15px;
+    background-image: url("images/menubg.jpg");
+    background-repeat: repeat-x;
+    margin-top: 10px;
+}
+
+p1{
+    color: black;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    margin-right: 500px;
+    padding-top: 15px;
+    font-size: 30px;
+    /* border-style: dashed; */
+    line-height:20px ;
+    text-align: center;
+    
+}
+
+.row3rightc{
+    width: 750px;
+    
+    background-color: white;
+    margin: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    font-size: 15px;
+    background-size:cover ;
+    display: flex;
+}
+
+.row3rightc img{
+    width: 200px;
+    height: 150px;
+    margin-left:50px;
+    margin-left: 10px;
+    flex-wrap:wrap;
+}
+
+.row3rightc  h1{
+    font-size: 40px;
+
+    border: 1px solid red;
+    border: none;
+    text-align: center;
+}
+.form-outer{
+    
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.label-div{
+    width: 170px;
+    
+
+}
+
+.inputDiv{
+    width: 500px;
+}
+
+.inputDiv textarea{
+    width: 200px;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    box-sizing: border-box;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+}
